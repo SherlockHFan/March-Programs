@@ -1,0 +1,27 @@
+#############################################################
+			Incremental and Decremential Expressions
+		#############################################################
+	- Increment: 
+		var x = 5;
+		x++; // Changes to 6, this is equal to x = x + 1;(a number plus 1).
+
+
+	- Decrement:
+		var x = 5;
+		x--; // Changes to 4, will decrease the value.
+With code like this -- or ++, the value only every increases or decreases by 1.
+To change values by more then 1 at a time, use +=. --> var x = 5;
+						       x += 2; // Changes to 7 (5+2).
+Or var x = 5;
+   var y = 3;
+   x += y; // Changes the value to 8 by adding two variables together.
+
+
+
+
+
+
+
+
+
+
