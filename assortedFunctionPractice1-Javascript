@@ -1,0 +1,68 @@
+function main(){
+   bottomBeeper();
+   sideBeeper();
+   topBeeper();
+   leftSide();
+   bottom2Beep();
+}
+
+function bottomBeeper(){
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   }
+function sideBeeper() {
+   turnLeft();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+}   
+function topBeeper() {
+   turnLeft();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   }
+function leftSide() {
+   turnLeft();
+   move();
+   move();
+   putBeeper();
+   move();
+   }
+function bottom2Beep (){
+   turnLeft();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   turnLeft();
+   move();
+   move();
+   putBeeper();
+   turnLeft();
+   move();
+   move();
+   putBeeper();
+   turnLeft();
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+   move();
+   }
+
+
+
+
